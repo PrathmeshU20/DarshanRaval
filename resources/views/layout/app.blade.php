@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,15 @@
     @stack('styles')
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
+    <div class="width-screen h-full">
     @include('layout.header')
-    <div class="container">
-        <div class="content">
-            @yield('appContents')
-        </div>
-    </div>
+    <main class="w-full h-screen">
+    @yield('appContents')
+    </main>
     @include('layout.footer')
+    </div>
 </body>
+
 </html>
