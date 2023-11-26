@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
     @stack('styles')
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     @include('layout.header')
