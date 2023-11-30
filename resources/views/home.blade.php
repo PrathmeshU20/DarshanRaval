@@ -18,20 +18,24 @@
         padding: 15px 100px;
     }
     .homein {
-        border-radius: 1%;
+        border-radius: 15px;
         background-color: rgb(180, 196, 220);
         /* margin: 20px auto; */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .HImages {
-        border: 0.5px solid rgb(0, 0, 0);
+        border: 1px solid rgb(0, 0, 0);
         display: inline;
         box-sizing: border-box;
         width: 192px;
         height: 512px;
         object-fit: cover;
         object-position: top;
-
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border-radius: 15px;
+    }
+    .HImages :hover {
+        transform: scale(1.2);
     }
     .HImgDiv {
         width: 100%;
@@ -51,6 +55,11 @@
         height: 163px;
         object-fit: fill;
         object-position: top;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+    .songimg :hover {
+        transform: scale(1.2);
     }
     .songRecc a {
         flex: auto;
@@ -60,6 +69,12 @@
     }
     .songlink {
         width: 163px;
+    }
+    .HImgDiv img:hover {
+        transform: scale(1.1);
+    }
+    .songRecc img:hover {
+        transform: scale(1.2);
     }
 </style>
 @section('appContents')

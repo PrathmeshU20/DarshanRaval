@@ -24,7 +24,7 @@
     }
 
     .contactin {
-        border-radius: 1%;
+        border-radius: 15px;
         background-color: rgb(180, 196, 220);
         /* margin: 20px auto; */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
