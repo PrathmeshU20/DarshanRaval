@@ -1,0 +1,10 @@
+
+@extends('layout.app')
+@section('appContents')
+<h2>Songs</h2>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad esse est, iusto odio perspiciatis quos neque in accusantium sed id nostrum totam cupiditate, saepe assumenda facilis exercitationem! Assumenda vero nihil fugit expedita quisquam earum aliquam molestiae quia aperiam cum aliquid deserunt iure, voluptatem, iusto eum et commodi? Magnam, enim error.</p>
+<p>Repellat officiis, cumque quas rem temporibus dolorem, veritatis aperiam in cupiditate unde, corporis voluptates. Corrupti asperiores quam impedit? Ipsum nemo, similique nostrum ullam praesentium molestias alias itaque eveniet consectetur dicta expedita numquam tenetur, excepturi, voluptatibus temporibus. Corporis molestias iusto unde voluptates reprehenderit. Pariatur est culpa consequatur atque dolor tenetur a!</p>
+<p>Excepturi libero animi voluptatibus nulla fugiat, ipsum autem reprehenderit rerum eos beatae, blanditiis dolor dolorum. Iste adipisci officia vero cum sunt. Quidem, magni. Temporibus sapiente dicta quos accusantium a sunt obcaecati? Et rem quibusdam similique reprehenderit culpa fuga omnis eligendi, voluptate quia amet architecto aut animi aspernatur dolorem illum dolor!</p>
+<p>Perferendis quod porro quibusdam debitis quos odio, cupiditate vel molestias placeat modi provident. Quas, quidem quis rem illo repellat provident? Facere corrupti qui deserunt ipsum accusamus exercitationem ipsa! Asperiores minima veritatis quidem impedit, totam dolore. Animi at perspiciatis voluptate amet accusamus a consectetur quaerat consequuntur iusto, repudiandae modi cum dolorum.</p>
+<p>Doloremque perferendis repellat saepe qui quibusdam adipisci debitis mollitia ad, itaque beatae iste. Voluptatum, maiores. Ipsum neque, aut nesciunt in maxime molestiae cumque quaerat, iste incidunt fugiat sed? Enim perspiciatis, sed accusantium at totam eius optio excepturi, quo deserunt id quisquam veniam commodi quia pariatur odit consectetur ad quibusdam voluptatibus?</p>
+@stop

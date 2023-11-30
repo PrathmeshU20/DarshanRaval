@@ -1,4 +1,9 @@
 @extends('layout.app')
 @section('appContents')
-<h1>History</h1>
+<h2>History</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex odit nulla enim, minus incidunt necessitatibus at, nostrum ullam et sunt provident, culpa modi id sint ad? Voluptatibus ad corrupti aut, cumque, possimus repudiandae est ipsum laborum modi doloremque consequatur labore consequuntur eum, eligendi nam. Quas reiciendis harum ut veniam provident.</p>
+<p>Voluptate, consequatur rem adipisci aliquam dignissimos commodi voluptates placeat laudantium cumque debitis consequuntur neque quasi molestiae illum. Qui amet dolore error? Sint, blanditiis inventore. Laborum officia explicabo pariatur commodi ratione dolor reiciendis at quaerat harum. Illo nam rem adipisci accusamus et a error architecto sint deserunt! Impedit sequi nisi nemo.</p>
+<p>Dolorem voluptates assumenda pariatur. Et ducimus, repellat, doloribus minima sequi nemo distinctio esse in accusamus eos cum ea quae atque deserunt tenetur amet itaque praesentium quos eius iusto similique dolores. Recusandae officia nemo sit doloribus tempora dolore, tempore quas deserunt at quo repudiandae iusto placeat consequuntur consequatur, natus numquam temporibus?</p>
+<p>Adipisci, itaque debitis ad quisquam nisi soluta at, est quos distinctio doloribus mollitia tempore odio dicta aut laboriosam modi. Ut ipsa perspiciatis quo officiis laboriosam atque ducimus amet harum! Labore aperiam ipsa recusandae cum, provident dolorum dicta non voluptas consequuntur facere sequi, unde rem officiis, blanditiis velit id animi laboriosam!</p>
+<p>Voluptatibus sint consequuntur unde id saepe quae a, facere esse, fuga cum perferendis fugit! Doloribus fugiat asperiores ut blanditiis eligendi cum quia libero molestiae corrupti? Placeat esse sapiente quis, consequatur officia sed laborum molestiae, maxime est officiis deserunt tempora, quae non a ex accusantium et sequi assumenda. Tempore, impedit molestiae?</p>
 @stop

@@ -1,4 +1,9 @@
 @extends('layout.app')
 @section('appContents')
-<h1>Contact</h1>
+<h2>Contact</h2>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo qui unde aliquid laudantium hic. Minima, eligendi! Libero quam harum corrupti maiores autem fugiat, inventore architecto quidem labore eos temporibus at non minima cum id aliquam voluptates quaerat commodi molestias, incidunt debitis cumque aspernatur. Accusamus, corporis molestias repellat delectus error nulla.</p>
+<p>Iusto animi sunt dolorem corrupti quisquam eius saepe, ipsam, harum praesentium minus obcaecati repellat nisi officia aliquid nulla. Nesciunt dolorem a ipsum placeat vitae asperiores deleniti suscipit optio rerum, quo necessitatibus, illum nihil error ut esse. Eveniet non exercitationem officia saepe ex, ea blanditiis consequuntur quasi hic atque suscipit! Ducimus.</p>
+<p>Aut quae repellendus soluta velit voluptates, alias qui assumenda atque, quidem minima amet reiciendis nisi perspiciatis aperiam, dolorum veritatis sed? Magni odit fugiat dolorum modi asperiores possimus totam accusamus alias dolore excepturi? Excepturi a maxime saepe reprehenderit sapiente provident ratione odit culpa vero laboriosam est maiores quam laborum, sunt doloremque.</p>
+<p>Cumque perferendis assumenda id vero, neque quasi quod ratione aperiam odio molestias quos error maxime a quaerat optio aliquam veniam reprehenderit aliquid dolor natus quidem laudantium. Est, ipsum! At eligendi in exercitationem, debitis quas aspernatur explicabo sapiente id eaque placeat nemo ratione minima ipsum beatae quaerat tempora. Numquam, beatae iusto.</p>
+<p>Doloremque facere maxime iusto ipsam amet ipsa cum ducimus at debitis ullam, officia, aliquid, qui quas repellat assumenda maiores mollitia officiis? Hic, quia quidem atque ea modi possimus, ducimus soluta aut voluptas explicabo illo, dolorum repellat architecto dolores non velit! Rerum magnam adipisci ea laborum, vitae a inventore consequatur porro?</p>
 @stop

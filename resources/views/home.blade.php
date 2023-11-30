@@ -1,9 +1,91 @@
 @extends('layout.app')
+<style>
+    .T2 {
+        /* border: 4px solid black; */
+        font-size: 150%;
+        padding: 13px;
+        text-align: center;
+
+    }
+    .T3 {
+        /* border: 4px solid black; */
+        font-size: 130%;
+        padding: 13px;
+        text-align: center;
+    }
+    .home,main {
+        background-color: rgb(174, 184, 199);
+        /* min-height:calc(100vh - 149.93px -24); */
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+    .homein {
+        border-radius: 1%;
+        background-color: rgb(180, 196, 220);
+        /* margin: 20px auto; */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .HImages {
+        border: 0.5px solid rgb(0, 0, 0);
+        display: inline;
+        box-sizing: border-box;
+        width: 192px;
+        height: 512px;
+        object-fit: cover;
+        object-position: top;
+
+    }
+    .HImgDiv {
+        width: 100%;
+        flex: auto;
+    }
+    .songRecc {
+        margin: auto;
+        width: 100%;
+        flex: auto;
+        align-content: center;
+    }
+    .songimg {
+        border: 0.5px solid rgb(0, 0, 0);
+        display: inline;
+        box-sizing: border-box;
+        width: 163px;
+        height: 163px;
+        object-fit: fill;
+        object-position: top;
+    }
+    .songRecc a {
+        flex: auto;
+        align-content: center;
+        margin: 0%;
+        text-align: center;
+    }
+    .songlink {
+        width: 163px;
+    }
+</style>
 @section('appContents')
-<h1>Home</h1>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quae modi earum laborum! Adipisci corporis, temporibus repudiandae nobis ea ratione incidunt? Rerum doloremque dignissimos modi inventore tempora, pariatur tenetur repudiandae aspernatur ad possimus maiores commodi, debitis architecto cum, quis laborum saepe facere vitae vel doloribus. Eligendi natus neque molestiae, voluptas iure non excepturi error placeat, aut distinctio tenetur sit. Inventore iusto asperiores dolore impedit nobis, ad in consectetur explicabo, tempora accusantium incidunt assumenda libero deserunt illo unde voluptatibus cupiditate? Odit quod culpa dicta aspernatur molestiae deleniti id atque libero sunt numquam accusamus a doloremque quibusdam itaque fuga, consequuntur et magni.</p>
-<p>Numquam voluptatum deleniti sint minima autem totam, illum velit, distinctio voluptas in dolor tempora voluptate possimus nihil officia voluptates, cupiditate harum. Quia facilis nostrum voluptate velit ut dolorem ullam, facere earum molestias delectus quos odit rem, culpa amet vel? Corrupti, aperiam! Aut ea ut voluptates recusandae quis reprehenderit reiciendis dolores optio dicta vitae, eius officiis, illum, nemo eum iusto similique molestiae. Eius sed eligendi, recusandae illo suscipit vitae magni assumenda voluptatibus. Distinctio, illo accusantium. Hic animi accusantium doloribus alias dolore. Consectetur repellat minima et quidem doloribus vitae vel officiis dignissimos ut necessitatibus quos adipisci repudiandae excepturi, voluptas, facere odio reprehenderit!</p>
-<p>Est hic corporis aliquam eius cumque dolorem? Rerum tempora consectetur dolorum atque voluptates. Eum quos nesciunt repellendus laborum! Molestiae eum veniam ullam totam beatae, mollitia ad minima provident harum sit sequi necessitatibus ipsa, error quo excepturi explicabo ex officiis voluptas consequatur! Illum, esse? Vero hic assumenda, repudiandae quisquam accusamus explicabo quis non quae veniam? Odit fuga beatae nulla perferendis ipsum quod aspernatur quibusdam iste minima dignissimos, quae odio nesciunt architecto dolorem sint reprehenderit nam provident eius consequatur ratione cumque eos hic. Optio, eveniet quae expedita consequatur sunt nulla non laborum a unde qui, assumenda numquam ipsa? At quis obcaecati repellat.</p>
-<p>Iure debitis eligendi quia! Obcaecati accusantium molestiae iusto libero tempora. In sunt quis quibusdam cum eius earum perferendis! Consequuntur eligendi eos reprehenderit beatae sit ratione architecto dolores, deleniti iusto asperiores in odit corrupti optio eveniet unde veniam nemo incidunt inventore. Possimus eum cumque quos sapiente porro, quibusdam omnis autem consequatur quae quo quas tempora dolorum nulla nostrum tempore nihil? Minus eum numquam laboriosam aliquam maxime, cum quis magni? Aperiam corrupti harum inventore, amet repellendus quae suscipit aut eum voluptatibus non beatae numquam! Vitae vero, sequi, quasi illo ab assumenda libero, pariatur doloremque dignissimos laborum deleniti. Odit nisi voluptatem error quam.</p>
-<p>Totam, iure reiciendis explicabo quisquam nemo, repellendus eveniet expedita tempore alias error dolorem nostrum placeat dicta numquam sapiente magnam laboriosam, consequuntur similique obcaecati accusamus neque porro autem! Consequatur, illo asperiores sed provident sapiente possimus voluptates earum laudantium, voluptas dolorem veniam? Harum magni mollitia cum atque nesciunt sit hic voluptas optio recusandae eaque, neque quibusdam est quia quidem sequi omnis sed culpa ipsa! Praesentium dolor mollitia natus aperiam voluptatibus reiciendis quo aut impedit labore nesciunt officia, eos ratione recusandae? Sunt quaerat, autem incidunt fuga expedita est, iure aliquam necessitatibus fugit corporis non natus. Quis magni incidunt tenetur ullam laboriosam corporis rem.</p>
+<div class="home">
+    <div class="homein">
+    <h2 class="T2">Home</h2>
+        <div class="HImgDiv flex flex-row p-4 space-x-5 content-center flex-grow-0 ">
+            <img src="../Images/IMG-20231129-WA0010.jpg" alt="Darshan Raval Images" class="HImages basis-1/3 ">
+            <img src="../Images/IMG-20231129-WA0004.jpg" alt="Darshan Raval Images" class="HImages basis-1/3 ">
+            <img src="../Images/IMG-20231129-WA0013.jpg" alt="Darshan Raval Images" class="HImages basis-1/3 ">
+        </div>
+    <hr>
+    <h3 class="T3">Latest Songs</h3>
+    <div class="latestsong">
+        <div class="songRecc flex flex-row p-4 space-x-5 content-center flex-grow-0 ">
+            <a href="https://open.spotify.com/track/0Jiaz0O4AqnJICa9PxHhaR?si=0a3d42cc51234423" class=" songlink"><img src="../Images/songs/song1.jpg" alt="Darshan Raval Images" class="songimg "></a>
+            <a href="https://open.spotify.com/track/0rMeOAvbQZ2RTG4B6L1M4p?si=342efbc5d85243df" class=" songlink"><img src="../Images/songs/song2.jpg" alt="Darshan Raval Images" class="songimg "></a>
+            <a href="https://open.spotify.com/track/3YLgvuHhHlfEAIR5JSPOZM?si=d9b7303d6aa44b6d" class=" songlink"><img src="../Images/songs/song3.jpg" alt="Darshan Raval Images" class="songimg "></a>
+            <a href="https://open.spotify.com/track/3Rvdqwgbr3rryZkNRrItt3?si=cac8c05bcd2946c3" class=" songlink"><img src="../Images/songs/song4.jpg" alt="Darshan Raval Images" class="songimg "></a>
+            <a href="https://open.spotify.com/track/1L3Nsi7YXtBxTdnbqektia?si=f6f337c13a6a48ef" class=" songlink"><img src="../Images/songs/song5.jpg" alt="Darshan Raval Images" class="songimg "></a>
+
+        </div>
+    </div>
+    </div>
+</div>
 @stop
