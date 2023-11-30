@@ -23,7 +23,7 @@
         }
         .mid {
             background-color: rgb(174, 184, 199);
-            min-height:calc(100vh - 149.93px -24);
+            min-height:calc(100vh - 149.93px -260px);
         }
         footer{
             background-color: rgb(47, 95, 137);

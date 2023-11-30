@@ -1,9 +1,32 @@
 @extends('layout.app')
 @section('appContents')
-<h2>About</h2>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quisquam odit eius reprehenderit illo alias cumque commodi illum numquam maxime, consectetur asperiores! Esse cupiditate repellendus eligendi ut quo culpa minima ad, iusto perferendis qui exercitationem, accusamus quaerat perspiciatis beatae sed velit cum vero veritatis quia rerum! Velit nulla cum id.</p>
-<p>Voluptas asperiores beatae voluptate molestiae, qui dolores deleniti odio doloremque? Similique incidunt facilis libero nam non facere nostrum et expedita nesciunt iure tempora, nemo, voluptates at sint a, dolores optio quidem nulla quos quas. Omnis, molestiae eveniet quisquam, suscipit perspiciatis voluptate, corrupti architecto eligendi nemo laborum culpa ducimus itaque necessitatibus?</p>
-<p>Quasi molestias quas accusamus reprehenderit repudiandae voluptates vero a ullam, tempore earum aperiam qui? Incidunt vel molestiae illo magnam illum unde voluptate animi, perspiciatis voluptatibus nobis, suscipit placeat. Quae quibusdam molestiae harum deserunt ea? Ab, ullam deserunt earum, ducimus, recusandae distinctio nobis optio est dolorum molestiae officiis repellat reprehenderit omnis.</p>
-<p>Velit officia accusantium odit at ipsum ex sapiente aperiam soluta, modi assumenda quod perspiciatis harum voluptatum porro atque molestias exercitationem veniam mollitia quo excepturi adipisci culpa vitae maxime. Voluptatibus id corporis, accusantium incidunt numquam modi odio fugiat, suscipit exercitationem, repellendus nisi quis ratione repudiandae eius maxime! Ipsam saepe unde omnis.</p>
-<p>Corporis aliquid ducimus rerum nisi consectetur saepe facere tempore voluptas, iste dolore consequuntur unde necessitatibus quo ab omnis quod. Officia nulla aperiam temporibus necessitatibus impedit? Aspernatur voluptatibus fugit repudiandae sed, hic quo dignissimos voluptatum similique eum velit quia recusandae eius architecto adipisci itaque ex dolore quos placeat quibusdam ad a?</p>
+<style>
+    .T2 {
+        /* border: 4px solid black; */
+        font-size: 150%;
+        padding: 13px;
+        text-align: center;
+    }
+    .about,main {
+        background-color: rgb(174, 184, 199);
+        /* min-height:calc(100vh - 149.93px -24); */
+        padding-left: 150px;
+        padding-right: 150px;
+        padding: 15px 100px;
+    }
+
+    .aboutin {
+        border-radius: 1%;
+        background-color: rgb(180, 196, 220);
+        /* margin: 20px auto; */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 10px 70px;
+    }
+</style>
+<div class="about">
+    <div class="aboutin">
+        <h2 class="T2">About</h2>
+        <hr>
+    </div>
+</div>
 @stop

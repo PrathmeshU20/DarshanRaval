@@ -5,7 +5,6 @@
         font-size: 150%;
         padding: 13px;
         text-align: center;
-
     }
     .T3 {
         /* border: 4px solid black; */
@@ -16,9 +15,7 @@
     .home,main {
         background-color: rgb(174, 184, 199);
         /* min-height:calc(100vh - 149.93px -24); */
-        padding-left: 70px;
-        padding-right: 70px;
-
+        padding: 15px 100px;
     }
     .homein {
         border-radius: 1%;
@@ -68,7 +65,7 @@
 @section('appContents')
 <div class="home">
     <div class="homein">
-    <h2 class="T2">Home</h2>
+    <h2 class="T2">Home</h2><hr>
         <div class="HImgDiv flex flex-row p-4 space-x-5 content-center flex-grow-0 ">
             <img src="../Images/IMG-20231129-WA0010.jpg" alt="Darshan Raval Images" class="HImages basis-1/3 ">
             <img src="../Images/IMG-20231129-WA0004.jpg" alt="Darshan Raval Images" class="HImages basis-1/3 ">

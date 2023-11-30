@@ -1,10 +1,34 @@
 
 @extends('layout.app')
 @section('appContents')
-<h2>Songs</h2>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad esse est, iusto odio perspiciatis quos neque in accusantium sed id nostrum totam cupiditate, saepe assumenda facilis exercitationem! Assumenda vero nihil fugit expedita quisquam earum aliquam molestiae quia aperiam cum aliquid deserunt iure, voluptatem, iusto eum et commodi? Magnam, enim error.</p>
-<p>Repellat officiis, cumque quas rem temporibus dolorem, veritatis aperiam in cupiditate unde, corporis voluptates. Corrupti asperiores quam impedit? Ipsum nemo, similique nostrum ullam praesentium molestias alias itaque eveniet consectetur dicta expedita numquam tenetur, excepturi, voluptatibus temporibus. Corporis molestias iusto unde voluptates reprehenderit. Pariatur est culpa consequatur atque dolor tenetur a!</p>
-<p>Excepturi libero animi voluptatibus nulla fugiat, ipsum autem reprehenderit rerum eos beatae, blanditiis dolor dolorum. Iste adipisci officia vero cum sunt. Quidem, magni. Temporibus sapiente dicta quos accusantium a sunt obcaecati? Et rem quibusdam similique reprehenderit culpa fuga omnis eligendi, voluptate quia amet architecto aut animi aspernatur dolorem illum dolor!</p>
-<p>Perferendis quod porro quibusdam debitis quos odio, cupiditate vel molestias placeat modi provident. Quas, quidem quis rem illo repellat provident? Facere corrupti qui deserunt ipsum accusamus exercitationem ipsa! Asperiores minima veritatis quidem impedit, totam dolore. Animi at perspiciatis voluptate amet accusamus a consectetur quaerat consequuntur iusto, repudiandae modi cum dolorum.</p>
-<p>Doloremque perferendis repellat saepe qui quibusdam adipisci debitis mollitia ad, itaque beatae iste. Voluptatum, maiores. Ipsum neque, aut nesciunt in maxime molestiae cumque quaerat, iste incidunt fugiat sed? Enim perspiciatis, sed accusantium at totam eius optio excepturi, quo deserunt id quisquam veniam commodi quia pariatur odit consectetur ad quibusdam voluptatibus?</p>
+<style>
+    .T2 {
+        /* border: 4px solid black; */
+        font-size: 150%;
+        padding: 13px;
+        text-align: center;
+    }
+    .songs,main {
+        background-color: rgb(174, 184, 199);
+        /* min-height:calc(100vh - 149.93px -24); */
+        padding-left: 150px;
+        padding-right: 150px;
+        padding: 15px 100px;
+    }
+
+    .songsin {
+        border-radius: 1%;
+        background-color: rgb(180, 196, 220);
+        /* margin: 20px auto; */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 10px 70px;
+    }
+</style>
+<div class="songs">
+    <div class="songsin">
+        <h2 class="T2">Songs</h2>
+        <hr>
+        <h3 class="T3">Lorem</h3>
+    </div>
+</div>
 @stop
